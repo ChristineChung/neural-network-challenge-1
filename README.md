@@ -64,3 +64,22 @@ The README file also discusses the considerations for building a recommendation 
 1. Data needed (academic, financial, loan details, demographics, historical performance)
 2. Filtering method (content-based filtering)
 3. Real-world challenges (data privacy, bias, and fairness)
+
+Data Needed: To build a student loan recommendation system, you'd need:
+
+Academic data (GPA, major, course load)
+Financial data (income, credit score, existing debts)
+Loan details (interest rates, terms, amounts)
+Demographics (age, location, family finances)
+Historical loan performance and default rates
+This data helps assess ability to repay, financial need, and default risk, enabling personalized recommendations based on academic and financial profiles.
+
+2. Based on the data you chose to use in this recommendation system, would your model be using collaborative filtering, content-based filtering, or context-based filtering? Justify why the data you selected would be suitable for your choice of filtering method.
+
+The system would use content-based filtering, as recommendations are based on each student's individual attributes like academics, finances, and demographics. This method leverages specific user characteristics.
+
+3. Describe two real-world challenges that you would take into consideration while building a recommendation system for student loans. Explain why these challenges would be of concern for a student loan recommendation system.
+
+Data Privacy: Ensuring privacy and security of sensitive student information to prevent identity theft and violations.
+Bias and Fairness: Avoiding biases that disadvantage certain student groups, promoting fairness and equal opportunities.
+These challenges impact trustworthiness and ethical integrity, which are crucial for the system's acceptance and effectiveness.
